@@ -15,10 +15,15 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 import numpy as np
+
 a=np.array([[1,-3],[3,1]])
+
 b=np.array([0,10])
+
 result=np.linalg.solve(a,b)
+
 print(result)
+
 ## Output:
 ![solving](./solving.png)
 ## Result: 
